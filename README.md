@@ -14,11 +14,19 @@ and allow you to create Trackers and Rotos.
 * Automagically Roto with motion vectors 🔥
 
 
+## Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=PIaBfmp8Beo" target="_blank"><img src="http://img.youtube.com/vi/PIaBfmp8Beo/mqdefault.jpg"
+alt="Click to Watch the video" width="240" height="135" border="10" /><br>View the demo on Youtube</a>
+
+
 ## Install
 
 Edit you menu.py and add the folder to plugin path:
 
 `nuke.pluginAddPath("/Users/youruser/.nuke/furytools")`
+
+Press Tab and create RotoFury or TrackerFury nodes
 
 
 ## Current limitations:
@@ -36,7 +44,7 @@ Are welcome, I'm looking for improvement ideas and UI suggestions, new functiona
 
 ## Why "Fury tools", "TrackerFury - The Revenge of the Motion Vectors"?
 
-When looking at the AI tracking landscape these days, all project have cool names like, "Track everything, everywhere, all the time", "CoTracker: It is Better to Track Together". My friend Mauricio de Oliveira came up with this fun name.
+When looking at the AI tracking landscape these days, all project have cool names like "Track everything, everywhere, all the time", "CoTracker: It is Better to Track Together". My friend Mauricio de Oliveira came up with this fun name.
 
 ## Coffee
 <a href="https://www.paypal.com/paypalme/MBORGO">Love it? Buy me a coffee</a>
