@@ -26,6 +26,8 @@ addUserKnob {22 previous_nframes l "<<< Previous" t "Execute the previous N fram
 addUserKnob {22 next_nframes l "Next >>>" t "Execute the next N frames.\nN = update interval" -STARTLINE T "bvfx_furytools.main(nuke.thisNode(),\"roto\",mode=\"nextnframes\")"}
 addUserKnob {26 ""}
 addUserKnob {26 bvfxsignature l "" +STARTLINE T "RotoFury<span style=\"color:#aaa;font-family:sans-serif;font-size:8pt\"> v1.0.0 Oct 14 2023 - Revenge of the Motion Vectors<br>by <a href=\"https://github.com/magnoborgo/\" style=\"color:#aaa\">Magno Borgo</a> Boundary Visual Effects</span>\n</div>"}
+addUserKnob {20 help_1 l Help}
+ addUserKnob {26 help_2 l "" +STARTLINE T "<a href=\"https://www.youtube.com/playlist?list=PLs8PKOXTB8CqmAWSHpArfD8v17sgYB7Po\">Examples and Demos on Youtube\n</a><br><br>\nRecommended motion vector channels:<br><br>\n\nSmartVector/RAFT > smartvector_f01_v01<br>\nVectorGenerator > Forward (regularized/forward)<br>\nScanline Render > Ouput \"velocity\" vectors on Forward channel\n"}
 }
 Input {
  inputs 0
@@ -45,7 +47,7 @@ CurveTool {
  avgframes 0
  ROI {1367.600464 1654.665405 1368.600464 1655.665405}
  autocropdata {960 540 2880 1620}
- intensitydata {{curve x57 -2.1875 -2.115234375 -2.095703125 -2.544921875 -2.703125 -2.423828125} {curve x57 -0.07885742188 -0.466796875 -0.6791992188 -0.8857421875 -1.108398438 -1.31640625} {curve x57 2.20703125 2.134765625 2.60546875 2.740234375 2.48828125 2.85546875} {curve}}
+ intensitydata {0 0 0 0}
  name ct
  xpos 158
  ypos 337
