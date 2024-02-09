@@ -22,7 +22,7 @@ alt="Click to Watch the video" width="240" height="135" border="10" /><br>View t
 
 ## Install
 
-Edit you menu.py and add the folder to plugin path:
+Edit you init.py and add the folder to plugin path:
 
 `nuke.pluginAddPath("/Users/youruser/.nuke/furytools")`
 
